@@ -37,7 +37,7 @@ const ParticlesContainer = () => {
           },
           modes: {
             bubble: {
-              size: 3,
+              size: 1,
               distance: 100,
               duration: 1,
               color: '#ff0000',
@@ -62,12 +62,12 @@ const ParticlesContainer = () => {
             color: '#f5d393',
             distance: 100,
             enable: true,
-            opacity: 0.6,
-            width: 1.1,
+            opacity: 0.2,
+            width: 0.2,
           },
           move: {
             enable: true,
-            speed: 0.7,
+            speed: 0.3,
             direction: 'none',
             random: true,
             straight: false,
@@ -81,7 +81,7 @@ const ParticlesContainer = () => {
             },
           },
           number: {
-            value: 35, 
+            value: 15, 
           },
           opacity: {
             value: 0.5,
@@ -92,14 +92,14 @@ const ParticlesContainer = () => {
             },
           },
           shape: {
-            type: ['circle'], 
+            type: ['square'], 
           },
           size: {
-            value: { min: 1, max: 2 },
+            value: { min: 1, max: 1.2 },
             anim: {
               enable: true,
               speed: 2,
-              size_min: 0.3,
+              size_min: 0.1,
             },
           },
         },
