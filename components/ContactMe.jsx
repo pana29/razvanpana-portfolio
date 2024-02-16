@@ -9,7 +9,7 @@ const Cv = () => {
     <div>
       <Link
         href='/contact'
-        className="btn rounded-full border border-white/50 max-w-[170px] px-8 transition-all duration-300 flex items-center 
+        className="btn rounded-full border border-white/50 max-w-[170px] lg:px-8 px-4 transition-all duration-300 flex items-center 
               justify-center overflow-hidden hover:border-accent group"
         download={true}
       >

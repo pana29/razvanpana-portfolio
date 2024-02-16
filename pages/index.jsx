@@ -15,7 +15,7 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hiden"
-            className="h1"
+            className="lg:h1 mb-10 text-2xl"
           >
             Hi, my name is <br />{' '}
             <span className="text-accent">Razvan Pana</span>
@@ -25,7 +25,7 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hiden"
-            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-8"
+            className="max-w-sm xl:max-w-base text-sm lg:text-base  mx-auto xl:mx-0 mb-10 xl:mb-8"
           >
             Passionate about web development, I specialize in creating dynamic
             websites, integrating databases, optimizing for SEO, and crafting
@@ -68,4 +68,3 @@ const Home = () => {
 };
 
 export default Home;
-

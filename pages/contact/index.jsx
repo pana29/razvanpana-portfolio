@@ -63,7 +63,7 @@ const Contact = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h2 text-center mb-12"
+            className="lg:h2 text-2xl text-center mb-10  xl:mt-8 mt-10"
           >
             Let's <span className="text-accent">connect.</span>
           </motion.h2>
@@ -90,7 +90,7 @@ const Contact = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="flex-1 flex flex-col gap-6 w-full mx-auto"
+            className="flex-1 flex flex-col gap-2 lg:gap-6 lg:w-full mx-auto"
           >
             <div className="flex gap-x-6 w-full">
               <input

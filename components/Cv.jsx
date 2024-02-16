@@ -5,7 +5,7 @@ const Cv = () => {
   return (
     <div>
       <a
-        className="btn rounded-full border border-white/50 max-w-[170px] px-8 transition-all duration-300 flex items-center 
+        className="btn rounded-full border border-white/50 max-w-[170px] px-4 lg:px-8 transition-all duration-300 flex items-center 
               justify-center overflow-hidden hover:border-accent group"
         href="/Razvan-Pana-CV.pdf"
         download={true}
