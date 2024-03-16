@@ -33,11 +33,6 @@ export const workSlide = {
         },
         {
           title: 'title',
-          path: '/work-ticketing.png',
-          url: 'https://tickets-app-pi.vercel.app/',
-        },
-        {
-          title: 'title',
           path: '/work-residential.png',
           url: 'https://dynamic-area.netlify.app/',
         },
